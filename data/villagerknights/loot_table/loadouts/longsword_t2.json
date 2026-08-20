@@ -1,0 +1,54 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:weapons/longsword_t2"
+        }
+      ],
+      "functions": [
+        {
+          "function": "guardvillagers:slot",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:offhand/shield_t2",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 6
+        }
+      ],
+      "functions": [
+        {
+          "function": "guardvillagers:slot",
+          "slot": "offhand"
+        }
+      ]
+    }
+  ]
+}

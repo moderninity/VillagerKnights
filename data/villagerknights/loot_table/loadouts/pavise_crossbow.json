@@ -1,0 +1,47 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:weapons/crossbow_t2"
+        }
+      ],
+      "functions": [
+        {
+          "function": "guardvillagers:slot",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_pavese"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_pavese"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_pavese"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_pavese"
+        }
+      ],
+      "functions": [
+        {
+          "function": "guardvillagers:slot",
+          "slot": "offhand"
+        }
+      ]
+    }
+  ]
+}

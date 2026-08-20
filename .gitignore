@@ -1,0 +1,10 @@
+# built datapack zips - downloads live on CurseForge and Modrinth, not Releases
+*.zip
+villagerknights-forge-1.20.1/
+villagerknights-neoforge-1.21.1/
+
+# reference mod jars, not ours to redistribute
+ref*/
+
+__pycache__/
+*.pyc

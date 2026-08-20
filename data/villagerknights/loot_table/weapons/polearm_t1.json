@@ -1,0 +1,194 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_pike",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_pike",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_pike",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_pike",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_pike"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_ranseur",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_ranseur",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_ranseur",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_ranseur",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_ranseur"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_ahlspiess",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_ahlspiess",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_ahlspiess",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_ahlspiess",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_ahlspiess"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_guisarme",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_guisarme",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_guisarme",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_guisarme",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_guisarme"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_lochaberaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_lochaberaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_lochaberaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_lochaberaxe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_lochaberaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_lucernhammer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_lucernhammer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_lucernhammer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_lucernhammer",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_lucernhammer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_concavehalberd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_concavehalberd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_concavehalberd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_concavehalberd",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_concavehalberd"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 5,
+            "max": 15
+          },
+          "options": "#minecraft:on_mob_spawn_equipment",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.06
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

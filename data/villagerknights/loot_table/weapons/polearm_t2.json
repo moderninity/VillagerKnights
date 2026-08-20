@@ -1,0 +1,163 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_pike",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_pike",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_pike",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_pike",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_ranseur",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_ranseur",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_ranseur",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_ranseur",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_ahlspiess",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_ahlspiess",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_ahlspiess",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_ahlspiess",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_guisarme",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_guisarme",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_guisarme",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_guisarme",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_lochaberaxe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_lochaberaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_lochaberaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_lochaberaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_lucernhammer",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_lucernhammer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_lucernhammer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_lucernhammer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_concavehalberd",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_concavehalberd",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_concavehalberd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_concavehalberd",
+          "weight": 2
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 10,
+            "max": 22
+          },
+          "options": "#minecraft:on_mob_spawn_equipment",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.12
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

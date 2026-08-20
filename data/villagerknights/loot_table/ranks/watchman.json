@@ -1,0 +1,91 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/mail",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/norman",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/kettlehat",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/brigandine",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/lamellar",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/vanilla_chainmail",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/vanilla_gold"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/gambeson",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/ragged_mail",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/rusted_watch",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/rusted_crusader"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/vanilla_leather",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:loadouts/sidearm_t1",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:loadouts/polearm_t1",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:loadouts/longsword_t2"
+        }
+      ]
+    }
+  ]
+}

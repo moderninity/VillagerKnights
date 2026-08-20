@@ -1,0 +1,67 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/mail",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/kettlehat",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/brigandine",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/norman",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/lamellar",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/gambeson",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/vanilla_chainmail",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/vanilla_iron"
+        },
+        {
+          "type": "minecraft:empty"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:loadouts/polearm_t1",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:loadouts/polearm_t2",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/maximilian",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/jousting",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/ceremonial",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/knight",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/gothic"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/vanilla_diamond"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:loadouts/longsword_t3",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:loadouts/greatsword_t3",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:loadouts/sidearm_t3",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

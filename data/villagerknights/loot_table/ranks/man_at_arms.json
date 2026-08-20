@@ -1,0 +1,68 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/crusader",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/platemail",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/xiv_century",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/cuirassier",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/vanilla_iron",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/mail",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/brigandine"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:armor_sets/rusted_crusader"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:loadouts/sidearm_t2",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:loadouts/longsword_t2",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "villagerknights:loadouts/polearm_t2",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

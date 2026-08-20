@@ -1,0 +1,70 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_claymore",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_claymore",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_claymore",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_zweihander",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_zweihander",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_zweihander",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_flamebladedsword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_flamebladedsword",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_flamebladedsword"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 15,
+            "max": 30
+          },
+          "options": "#minecraft:on_mob_spawn_equipment",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

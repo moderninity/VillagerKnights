@@ -1,0 +1,88 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:barbedclub",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:blacksmith_hammer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:rusted_heavymace",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:wood_stylet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:stone_stylet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_stylet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:wood_shortsword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:stone_shortsword",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_shortsword",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:wood_katzbalger",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:stone_katzbalger",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_katzbalger"
+        }
+      ]
+    }
+  ]
+}

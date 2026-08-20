@@ -1,0 +1,165 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_heatershield",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_heatershield",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_heatershield",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_kiteshield",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_kiteshield",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_kiteshield",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_roundshield",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_roundshield",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_roundshield",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_rondache",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_rondache",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_rondache"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_target",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_target",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_target",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_buckler",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_buckler",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_buckler",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_tartsche",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_tartsche",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_tartsche"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_ellipticalshield",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_ellipticalshield",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_ellipticalshield"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:steel_pavese",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:silver_pavese"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_pavese"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:corruptedroundshield"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 15,
+            "max": 30
+          },
+          "options": "#minecraft:on_mob_spawn_equipment",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
