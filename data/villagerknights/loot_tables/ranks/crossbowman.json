@@ -1,0 +1,66 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:armor_sets/kettlehat",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:armor_sets/brigandine",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:armor_sets/mail",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:armor_sets/vanilla_chainmail",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:armor_sets/gambeson",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:armor_sets/platemail"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:armor_sets/vanilla_iron"
+        },
+        {
+          "type": "minecraft:empty"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:loadouts/crossbow_t1",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:loadouts/crossbow_t2",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:loadouts/pavise_crossbow",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:ranks/militia",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:ranks/watchman",
+          "weight": 22
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:ranks/spearman",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:ranks/archer",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:ranks/crossbowman",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:ranks/man_at_arms",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:ranks/knight",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:ranks/captain",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:armor_sets/gambeson",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:armor_sets/vanilla_leather",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:armor_sets/mail",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:armor_sets/kettlehat",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:armor_sets/brigandine",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:armor_sets/rusted_watch",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:loadouts/archer_t0",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerknights:loadouts/archer_t1",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

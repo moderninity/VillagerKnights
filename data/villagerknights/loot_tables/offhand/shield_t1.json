@@ -1,0 +1,242 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_heatershield",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_heatershield",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_heatershield",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_heatershield",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_heatershield"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_kiteshield",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_kiteshield",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_kiteshield",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_kiteshield",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_kiteshield"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_roundshield",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_roundshield",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_roundshield",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_roundshield",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_roundshield"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_rondache",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_rondache",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_rondache",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_rondache",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_rondache"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_target",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_target",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_target",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_target",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_target"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_buckler",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_buckler",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_buckler",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_buckler",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_buckler"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_tartsche",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_tartsche",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_tartsche",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_tartsche",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_tartsche"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_ellipticalshield",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_ellipticalshield",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_ellipticalshield",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_ellipticalshield",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_ellipticalshield"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:copper_pavese"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:tin_pavese"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:bronze_pavese"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:iron_pavese"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magistuarmory:gold_pavese"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 14
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 5,
+            "max": 15
+          },
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.06
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
